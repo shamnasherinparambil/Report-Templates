@@ -119,7 +119,8 @@ body {
 }
 
 .workspace {
-  width: 70%;
+  margin-left: 50px;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -712,3 +713,115 @@ canvas {
   width: 100%;
   height: 200px;
 }
+
+
+
+.template-three{
+  width : 100%;
+  border: 2px solid brown;
+  height: auto;
+  padding: 10px;
+}
+.report-container {
+  
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff8e6;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+
+.batch-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.batch-card {
+  position: relative;
+  width: 30%;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 40px; 
+  margin-right: 20px; 
+}
+
+.card-title {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0062FF;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 2px solid #0062FF;
+}
+
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.table-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.batch-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.table-title {
+  background-color: #0062FF;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 380px;
+  width: fit-content;
+}
+
+.table-section table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.table-section th, .table-section td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.table-section th {
+  background-color: #ff6f00;
+  color: white;
+}
+
+.table-section td {
+  background-color: #ffe6cc;
+}
+
+
+
