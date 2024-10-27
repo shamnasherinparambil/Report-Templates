@@ -319,4 +319,112 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+
+.template-four{
+  width : 100%;
+  border: 2px solid brown;
+  height: auto;
+  padding: 10px;
+
+}
+.t4top{
+  height:auto;
+  display: flex;
+  
+}
+.t4month{
+  width: 20%;
+  height: 100px;
+  background-color: #DEA49C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: white;
+
+}
+.t4heading{
+  width: 80%;
+  height: 100px;
+  font-size: x-large;
+  color: #0E486B;
+  padding-left: 40px;
+  padding-top: 10px;
+  
+}
+
+.t4body{
+  border: 1px solid black;
+  margin-top: 5px;
+  height: 450px;
+  background-color: #0E486B;
+  display: flex;
+
+}
+.t4leftbody{
+  width: 40%;
+  padding-left: 5px;
+
+}
+.t4batch{
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.t4trainee{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.traineedetails{
+  width:130px;
+  height: 120px;
+  background-color: #ffffff;
+  margin: 2px;
+  border-radius: 15px;
+  box-shadow: 1px 1px;
+}
+.t4rightbody{
+  width: 65%;
+
+}
+.graph{
+  background-color: white;
+  height: 300px;
+  width: 98%;
+  margin-top:50px ;
+}
+.t4tablediv{
+  display: flex;
+  height: 400px;
+  background-color: #DEA49C;
+  margin-top:5px;
+}
+.t4tableleftdiv{
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+
+.t4tablerightdiv{
+  width: 80%;
+
+}
+.t4table{
+  width: 95%;
+  height: 90%;
+  margin: 15px;
+  background-color: white;
+}
+
+
 /* Additional styles can go here */
