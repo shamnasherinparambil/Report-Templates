@@ -1,0 +1,51 @@
+.container-template1{
+	height: 90vw;
+    background: #bda7ec;
+    width: 40vh;
+    border-radius: 8px;
+    z-index: 10; 
+    position: absolute;
+    top: 60px; 
+    left: 60px;
+    padding: 20px;
+    color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.whole-batch{
+	border:solid black 1px;
+	border-radius: 10px;
+	background: white;
+	height: 150px;
+	width: 95%;
+	margin: auto;
+	top: 10px;
+}
+.number-numLearners{
+	border:solid black 1px;
+	border-radius: 10px;
+	background: white;
+	height: 150px;
+	width: 95%;
+	margin: auto;
+	top: 10px;
+}
+.duration{
+	border:solid black 1px;
+	border-radius: 10px;
+	background: white;
+	height: 150px;
+	width: 95%;
+	margin: auto;
+	top: 10px;
+}
+.sessions{
+	border:solid black 1px;
+	border-radius: 10px;
+	background: white;
+	height: 150px;
+	width: 95%;
+	margin: auto;
+	top: 10px;
+}
